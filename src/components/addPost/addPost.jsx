@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useMutation, useQueryClient } from '@tanstack/react-query';
-import { createPosts } from '../../Api/posts/createPost.api';
+import { createPosts } from '../../API/posts/createPost.api.js';
 import toast from 'react-hot-toast';
 export default function AddPost() {
   const queryClinet = useQueryClient();
