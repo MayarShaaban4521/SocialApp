@@ -3,7 +3,7 @@ import user from "../../assets/person.jpeg"
 import postImg from "../../assets/socialApp.jpg"
 
 export default function Comments({ comment }) {
-  if (!comment) return null; // حماية من undefined
+  if (!comment) return null; 
 
   const { commentCreator, content } = comment;
 
