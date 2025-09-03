@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Link, NavLink, useNavigate } from 'react-router-dom';
-import { counterContext } from '../../context/counterContext';
+import { counterContext } from '../../Context/counterContext';
 import { tokenContext } from '../../Context/tokenContext';
 
 export default function Navbar() {

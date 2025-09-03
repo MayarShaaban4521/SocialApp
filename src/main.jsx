@@ -6,7 +6,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import { Toaster } from 'react-hot-toast';
 import TokenContextProvider from './Context/tokenContext.jsx'
-import CounterContextProvider from './context/counterContext.jsx'
+import CounterContextProvider from './Context/counterContext.jsx'
 
 const query = new QueryClient()
 
